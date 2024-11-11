@@ -1,0 +1,19 @@
+numpy                1.21.6
+pandas               1.3.5
+matplotlib           3.5.3
+torch                1.13.1
+torch-geometric      2.2.0
+torch-cluster        1.6.1
+torch-scatter        2.1.1
+torch-sparse         0.6.17
+torch-spline-conv    1.2.2
+scikit-learn         1.0.2
+scipy   
+
+Or try without version 
+pip install torch
+pip install torch_geometric
+pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.0+cpu.html
+pip install matplotlib
+pip install networkx
+pip install pandas
